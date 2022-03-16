@@ -70,7 +70,12 @@ body {
 .nav-sub {
     background-color: #e0ffff;
 }
-
+#main{
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+    height: 900px;
+}
 .slide-1 {
     position: relative;
     height: 300px;
@@ -80,13 +85,25 @@ body {
     position: absolute;
     height: 100%;
 }
-
 .slide-2 {
     position: relative;
     width: 3600px;
+    height: 300px;
 }
-.slide-2-item {
+.slide-2-img {
     float: left;
     width: 1200px;
-    position: absolute;
+    height: 300px;
 }
+.slide-3{
+    position: relative;
+    width: 1200px;
+    height: 900px;
+    overflow-y: hidden;
+    z-index: -1;
+}
+.slide-3-img{
+    margin: 0;
+    padding: 0;
+}
+

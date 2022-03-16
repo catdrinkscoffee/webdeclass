@@ -21,17 +21,27 @@ $(document).ready(function () {
         $(".slide-1>img").eq(slideIndex_1).fadeIn();
     }, 2000);
 
-    //    slider - directional slide 버전
-    $("slide-2-item").eq(0).siblings().css({left : "1200px"});
-    var slideIndex_2 = 0, slideLen_2 = 2;
+    //    slider - directional slide 버전 - 좌우
+    var slideIndex_2 = 0, slideLen_2 = 3;
     window.setInterval(function () {
-       if (slideIndex_2 === slideLen_2) {
-            slideIndex_2 = 0;
+       if (slideIndex_2 < slideLen_2 - 1) {
+            slideIndex_2++;
         } else {
-            slideIndex_2 = slideIndex_2 + 1;
+            slideIndex_2 = 0;
         }
-        $(".slide-2>ul>li").eq(slideIndex_2).siblings().animate({left:"1200px"}, "slow");
-        $(".slide-2>ul>li").eq(slideIndex_2).siblings().animate({left:"0px"}, "slow");
+        var slidePosition = slideIndex_2 * (-1200)+"px";
+        $(".slide-2").animate({left:slidePosition}, "slow");
     }, 3000);
     
+    //    slider - directional slide 버전 - 상하
+    var slideIndex_3 = 0, slideLen_3 = 3;
+    window.setInterval(function () {
+       if (slideIndex_3 < slideLen_3 - 1) {
+            slideIndex_3++;
+        } else {
+            slideIndex_3 = 0;
+        }
+        var slidePosition = slideIndex_3* (-300)+"px";
+        $(".slide-3").animate({top:slidePosition}, "slow");
+    }, 3000);
 });
