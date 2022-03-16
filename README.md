@@ -1,2 +1,3 @@
 # ~까지 실행하기
-[header 실행하기](https://upbeat-ramanujan-60062f.netlify.app/)
+[header까지 실행하기](https://upbeat-ramanujan-60062f.netlify.app/)
+[slide까지 실행하기](https://zen-pike-35f319.netlify.app/)
