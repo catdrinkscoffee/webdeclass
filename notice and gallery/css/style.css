@@ -1,0 +1,154 @@
+@charset "utf-8";
+*{
+    margin: 0px auto;
+    padding: 0px;
+    color: #333333;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: inherit;
+}
+img{
+    border: 0px;
+}
+body{
+    width: 1200px;
+    height: 700px;
+}
+#header{
+    width: 1200px;
+    height: 100px;
+}
+.logo{
+    float: left;
+    height: 100px;
+}
+.logo>img{
+    padding-top: 20px; 
+}
+.nav{
+    float: right;
+    width: 600px;
+    padding-top: 20px;
+    position: relative;
+}
+.nav-main{
+    float: left;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color: #30a3f3;
+}
+.nav-main>a:hover{
+    color: #fff;
+}
+.nav-main>.nav-sub-container{
+    display: none;
+}
+.nav-main>.nav-sub-container>.nav-sub>a:hover{
+    background-color: #0066ad;
+    color: #fff;
+}
+.nav-sub{
+    background-color: #e0ffff;
+}
+#slide{
+    position: relative;
+    width: 1200px;
+    overflow: hidden;
+    height: 300px;
+}
+.slide-1{
+    position: relative;
+    height: 300px;
+}
+.slide-1>img{
+    position: absolute;
+    height: 300px;
+}
+.slide-2{
+    position: relative;
+    width: 3600px;
+    height: 300px;
+}
+.slide-2-img{
+    float: left;
+    widows: 1200px;
+    height: 300px;
+}
+.slide-3{
+    position: relative;
+    width: 1200px;
+    height: 900px;
+    overflow-y: hidden;
+    z-index: -1;
+}
+.slide-3-img{
+    width: 1200px;
+    height: 300px;
+}
+#content{
+	width: 1200px;
+	height: 200px;
+}
+.notice-and-gallery{
+	width: 400px;
+	height: 200px;
+}
+.tab-title{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.tab-title>.tab-nav>li{
+	float: left;
+	width: 100px;
+}
+.tab-title>.tab-nav>.active{
+	background-color: #30a3f3;
+}
+.tab-title>.tab-nav>.active>a{
+	color: white;
+}
+.tab-title>.tab-nav>.inactive{
+	background-color: white;
+}
+.tab-title>.tab-nav>.inactive:hover{
+	background-color: #cee5f5;
+}
+.tab-title>.tab-nav>.inactive>a{
+	color: #30a3f3;
+}
+
+.tab-content{
+	height: 150px;
+	position: relative;
+}
+.tab-content .inactive{
+	display: none;
+}
+.tab-content>.note{
+	height: 150px;
+	position: absolute;
+}
+.tab-content>.note>.note-para{
+	height: 25%;
+	line-height: 40px;
+	padding: 0 10px;
+}
+.tab-content>.note>.note-para>p:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.tab-content>.gal{
+	padding: 15px 0;
+	position: absolute;
+}
+.tab-content>.gal>img{
+	height: 120px;
+	margin: 0 5px;
+}
