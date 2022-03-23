@@ -122,7 +122,6 @@ body{
 .tab-title>.tab-nav>.inactive>a{
 	color: #30a3f3;
 }
-
 .tab-content{
 	height: 150px;
 	position: relative;
@@ -143,7 +142,6 @@ body{
 	cursor: pointer;
 	text-decoration: underline;
 }
-
 .tab-content>.gal{
 	padding: 15px 0;
 	position: absolute;
@@ -151,4 +149,47 @@ body{
 .tab-content>.gal>img{
 	height: 120px;
 	margin: 0 5px;
+}
+#modal{
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 1;
+    display: none;
+}
+.modal-container{
+    width: 600px;
+    height: 300px;
+    background-color: #fff;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    border-radius: 5px;
+    top: 200px;
+    position: relative;
+}
+.modal-dialog{
+    padding: 30px 10px;
+    width: 540px;
+}
+.modal-header{
+    height: 50px;
+}
+.modal-body{
+    height: 165px;
+}
+.modal-footer{
+    height: 50px;
+}
+.modal-footer>button{
+    width: 100px;
+    border: 0;
+/*    border-radius: 5px;*/
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: 600;
+    float: right;
+}
+.cancel:hover{
+    cursor: pointer;
+    text-decoration: underline;
 }

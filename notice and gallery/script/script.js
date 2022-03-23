@@ -77,5 +77,13 @@ $(document).ready(function () {
 	$(".gallery").click(function () {
 		if ($(".gallery").hasClass("inactive")) ngfunc();
 	});
-
+    
+    //modal
+    $(".modal-trigger").click(function () {
+       $("#modal").fadeIn(); 
+    });
+    
+    $(".cancel").click(function () {
+       $("#modal").fadeOut(); 
+    });
 });
