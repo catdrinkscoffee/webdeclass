@@ -47,6 +47,7 @@ body{
 }
 .nav-main>.nav-sub-container{
     display: none;
+    z-index: 2;
 }
 .nav-main>.nav-sub-container>.nav-sub>a:hover{
     background-color: #0066ad;
@@ -60,6 +61,7 @@ body{
     width: 1200px;
     overflow: hidden;
     height: 300px;
+    z-index: -1;
 }
 .slide-1{
     position: relative;
@@ -98,6 +100,7 @@ body{
 .notice-and-gallery{
 	width: 400px;
 	height: 200px;
+    float: left;
 }
 .tab-title{
 	height: 50px;
@@ -151,6 +154,16 @@ body{
 	height: 120px;
 	margin: 0 5px;
 }
+.banner{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
+.link{
+    width: 400px;
+    height: 200px;
+    float: left;
+}
 #modal{
     width: 1200px;
     height: 700px;
@@ -193,4 +206,29 @@ body{
 .cancel:hover{
     cursor: pointer;
     text-decoration: underline;
+}
+
+#footer{
+    width: 1200px;
+    height: 100px;
+}
+.footer-content{
+    height: 100px;
+    text-align: center;
+    float: right;
+}
+.footer-menu-container{
+    width: 600px;
+    height: 20px;
+/*    padding: 0(위) 0(오른쪽) 0(아래) 0(왼쪽);*/
+    padding: 20px 0 10px 0;
+}
+.footer-menu-container>li{
+    float: left;
+    width: 150px;
+}
+.copyright{
+    width: 600px;
+    height: 20px;
+    padding: 10px 0 20px 0;
 }
