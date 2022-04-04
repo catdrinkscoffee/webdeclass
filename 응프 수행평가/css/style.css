@@ -1,0 +1,33 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+#comparison{
+    width: 600px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+}
+
+.before {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/photoshop-face-before.jpg);
+    width: inherit;
+    height: inherit;
+}
+
+.after {
+    background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/photoshop-face-after.jpg);
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: inherit;
+    overflow: hidden;
+}
+
+input[type=range] {
+    position: relative;
+    top: -2rem;
+    left: -14px;
+    width: calc(102% + 14px);
+}
