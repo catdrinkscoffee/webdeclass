@@ -4,16 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>30505 응프 수행평가</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <title>응프 수행평가 명세서</title>
+    <style>
+        li{
+            font-size: 20px;
+        }
+        header {
+            padding: 20px 0;
+        }
+    </style>
 </head>
 <body>
-    <section id="comparison">
-        <div class="before"></div>
-        <div class="after"></div>
-        <input type="range" min="0" max="100" value="50" id="slider" oninput="moveDivisor();">
-    </section>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./script/script.js"></script>
+    <div id="app">
+		<header>
+			<h2>응프수행평가 : before & after slider 명세서</h2>
+			<ul>
+                <li>설계과정을 알고리즘으로 표현할 수 있어야 합니다... C</li>
+                <li>알고리즘을 누구나 이해할 수 있도록 이미지를 중심으로 표현해야 합니다... C+</li>
+                <li>컴포넌트는 화면 가운데에 위치해야 합니다... B</li>
+				<li>마우스를 클릭하여 before & after 사진을 번갈아 볼 수 있어야 합니다... B+</li>
+                <li>before & after slider의 비율이 원본 before & after 사진과 같아야 합니다... A</li>
+                <li>before & after slider의 input[type="slider"] 요소의 굵은 원 부분이 사진과 함께 움직여야 합니다... A+</li>
+			</ul>
+		</header>
+
+		<div class="wrapper">
+            <img src="./응프수행평가.gif" alt="응프수행평가 예시 사진">
+		</div>
+	</div>
 </body>
 </html>
