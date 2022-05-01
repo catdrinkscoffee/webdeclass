@@ -2,9 +2,8 @@
 ## Directories
 
 ```
-    .
-    ├── dataset                # problem sets
-    ├── docs                   # documentation files
+    ├── dataset               ├── dataset # problem sets
+    ├── docs                  ├── docs 
     ├── elevator               # source files
     ├── example                # example
     ├── logs                   # elevator logs
