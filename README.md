@@ -2,12 +2,12 @@
 ## Directories
 
 ```
-    ├── dataset               ├── dataset # problem sets
-    ├── docs                  ├── docs 
-    ├── elevator               # source files
-    ├── example                # example
-    ├── logs                   # elevator logs
-    ├── LICENSE
-    ├── CONTRIBUTING.md 
-    ├── NOTICE.md 
-    └── README.md
+    ├── a          3-10                ├── stood      2-8 3-8
+    ├── cat        1-3 1-7 3-7         ├── the        1-6 1-10 2-6 2-10 3-6
+    ├── dog        2-3 2-7 3-11        ├── while      3-9
+    ├── mat        1-11 2-11           ├── <body>     1-12 2-12 3-13
+    ├── my         1-2 2-2 3-2         ├── </body>    1-5 2-5 3-5
+    ├── on         1-9 2-9             ├── <title>    1-4 2-4 3-4
+    ├── pets       3-3                 ├── <title>    1-1 2-1 3-1
+    ├── sat        1-8 3-12
+```
